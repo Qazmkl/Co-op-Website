@@ -36,6 +36,12 @@
     border-radius: 5px;
 }
 
+.intro-picture {
+	padding: 20px;
+	max-height: 400px;
+	min-height: 200px;
+}
+
 .btn-default {
     color: #292C37;
     border-color: #00ADEE;
