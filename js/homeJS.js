@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var showTerm1 = function () {
+    /*var showTerm1 = function () {
         $("#term1Content").show();
         $("#introContent").hide();
     }
@@ -16,5 +16,5 @@ $(document).ready(function () {
 
     $("#introButton").click(function () {
         showIntro();
-    })
+    })*/
 })

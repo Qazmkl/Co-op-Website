@@ -1,5 +1,11 @@
 /*#00ADEE*/
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  margin: 0px;
+}
+
 .header {
     /* GRADIENT HEADER */
     /* ff3.6+ */
@@ -16,6 +22,12 @@
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(128, 200, 224, 1) 100%);
     /* ie6-9 */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80C8E0', endColorstr='#ffffff', GradientType=0);
+}
+
+.site-title {
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .contentBordered {
@@ -40,6 +52,11 @@
 
 .modalBody {
     margin-right: 45px;
+	padding: 0px;
+}
+
+.modal-header {
+	font-weight: 600;
 }
 
 .carousel-control.left,
