@@ -30,6 +30,12 @@
 	padding-top: 10px;
 }
 
+.button-row {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .contentBordered {
     border: 1px solid #00ADEE;
     margin: 20px;
@@ -85,6 +91,10 @@
 }
 
 @media only screen and (min-width: 507px) {
+    .button-row {
+        display: block;
+        width: auto;
+    }
     .carousel-control {
         width: 5%;
     }
@@ -97,6 +107,13 @@
 }
 
 @media only screen and (max-width: 507px) {
+    .button-row {
+        display: flex;
+    }
+    .button-row > .btn.btn-default {
+        width: 120px;
+        margin: 2px;
+    }
     .carousel-control {
         width: 10%;
     }
